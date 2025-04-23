@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>codestube's PUCTF Writeup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="indexStyles.css">
 </head>
 <body>
     <div class="container">
+        <!-- Navigation button -->
+        <div class="nav-button">
+            <a href="index.html" class="btn">Home</a>
+        </div>
         <!-- Header -->
         <div class="header">
             <h1 class="title">Welcome</h1>
             <div class="rating">
-                <!-- ★ = filled, ☆ = empty -->
-                <span class="star">★</span>
-                <span class="star">☆</span>
-                <span class="star">☆</span>
-                <span class="star">☆</span>
-                <span class="star">☆</span>
-                <span>(2/10)</span>
+                <!-- Font Awesome stars: fas = solid, far = regular -->
+                <!-- <i class="fas fa-star"></i> -->
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <span class="score"> 0.5 / 10 </span>
             </div>
         </div>
         <div class="meta">
@@ -48,7 +54,7 @@
 
         <!-- Writeup Section -->
         <div class="content">
-            <h2>Writeup</h2>
+            <h2>My Writeup</h2>
             <p>
                 <!-- My thought process -->
                 Welcome to my first writeup!<br>
@@ -57,6 +63,12 @@
                 This is the flag: <b>PUCTF25{w3lc0m3_4nd_3nj0y_this_g4m3}</b><br>
                 And that wraps up my first writeup! Hopefully there's more to come!
             </p>
+        </div>
+
+        <!-- Footer Buttons -->
+        <div class="footer-buttons">
+            <a href="#top" class="btn">Top</a>
+            <a href="index.html" class="btn">Home</a>
         </div>
     </div>
 </body>

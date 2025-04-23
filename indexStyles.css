@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +19,33 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+/* Navigation Buttons */
+.nav-button {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.footer-button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #a8d0e6;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin: 0 0.25em;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 /* Header */
@@ -35,14 +63,20 @@ body {
 }
 
 .rating {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
 }
 
-.star {
+.rating i {
     color: gold;
     margin-right: 0.25rem;
+}
+
+.score {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: #f0f0f0;
 }
 
 /* Meta Info */
