@@ -5,79 +5,82 @@ body {
     background: linear-gradient(135deg, #2b2e4a, #904e95);
     color: #f0f0f0;
     line-height: 1.6;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  }
-  
-  /* Header */
-  .header {
+}
+
+/* Header */
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 2rem;
     margin: 0;
-  }
-  
-  .rating {
+}
+
+.rating {
     font-size: 1.1rem;
     display: flex;
     align-items: center;
-  }
-  
-  .star {
+}
+
+.star {
     color: gold;
     margin-right: 0.25rem;
-  }
-  
-  /* Meta Info */
-  .meta {
+}
+
+/* Meta Info */
+.meta {
     font-size: 0.9rem;
     color: #cccccc;
     margin-bottom: 1.5rem;
-  }
-  
-  /* Section Headings */
-  .description h2,
-  .files h2,
-  .flag-format h2,
-  .content h2 {
+}
+
+/* Section Headings */
+.description h2,
+.files h2,
+.flag-format h2,
+.content h2 {
     margin-top: 0;
     border-bottom: 2px solid #555;
     padding-bottom: 0.5rem;
     font-size: 1.5rem;
-  }
-  
-  /* Content Paragraphs */
-  .description p,
-  .flag-format p,
-  .files ul,
-  .content p {
+}
+
+/* Content Paragraphs */
+.description p,
+.flag-format p,
+.files ul,
+.content p {
     margin: 1rem 0;
-  }
-  
-  /* Files List */
-  .files ul {
+}
+
+/* Files List */
+.files ul {
     list-style: disc inside;
-  }
-  
-  .files a {
+}
+
+.files a {
     color: #a8d0e6;
     text-decoration: none;
-  }
-  
-  .files a:hover {
+}
+
+.files a:hover {
     text-decoration: underline;
-  }
-  
+}
