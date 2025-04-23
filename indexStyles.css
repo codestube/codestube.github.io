@@ -48,14 +48,36 @@ body {
     margin-bottom: 1.5rem;
   }
   
-  /* Content */
+  /* Section Headings */
+  .description h2,
+  .files h2,
+  .flag-format h2,
   .content h2 {
     margin-top: 0;
     border-bottom: 2px solid #555;
     padding-bottom: 0.5rem;
+    font-size: 1.5rem;
   }
   
+  /* Content Paragraphs */
+  .description p,
+  .flag-format p,
+  .files ul,
   .content p {
     margin: 1rem 0;
+  }
+  
+  /* Files List */
+  .files ul {
+    list-style: disc inside;
+  }
+  
+  .files a {
+    color: #a8d0e6;
+    text-decoration: none;
+  }
+  
+  .files a:hover {
+    text-decoration: underline;
   }
   
