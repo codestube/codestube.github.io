@@ -1,3 +1,3 @@
 # post-ctf writeups
-This was inspired by the recent CTF I participated in. However, it seems I still lack a bit of knowledge to make my own AI... <b>
-<br>I'll try my best though. ~Try not to~ break it!
+This is a website that records all of my writeups for the <b>PolyU CTF 2025</b> !
+ <b><br>This is my first time writing writeups, so I'm bound to fuck up :></b>
