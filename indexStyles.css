@@ -120,10 +120,12 @@ body {
 }
 
 .thoughts {
-    font-size: 0.75rem;
-    color: #cccccc;
+    font-size: 0.8rem;
+    color: #bbbbbb;
     text-align: center;
     margin-top: 3rem;
     opacity: 0.6;
     font-style: italic;
+    max-width: 100%;
+    word-wrap: break-word;
 }
