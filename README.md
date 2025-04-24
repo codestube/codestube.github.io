@@ -4,5 +4,5 @@ This is a website that records all of my writeups for the <b>PolyU CTF 2025</b> 
 
 ===============================<br>
 <b>You are NOT required to look into these pages.</b><br>
-<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just Try Harder&nbsp;&nbsp;&nbsp;</b><br>
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just Try Harder&nbsp;&nbsp;&nbsp;</b><br>
 ===============================<br>
