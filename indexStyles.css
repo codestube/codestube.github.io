@@ -118,3 +118,12 @@ body {
 .files a:hover {
     text-decoration: underline;
 }
+
+.thoughts {
+    font-size: 0.75rem;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 3rem;
+    opacity: 0.6;
+    font-style: italic;
+}
